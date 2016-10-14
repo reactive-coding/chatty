@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 该布局文件主要用于在网络请求失败后展示的失败界面给用户 -->
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/network_break_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@mipmap/no_network_layotu_tips" />
+
+    <TextView
+        android:id="@+id/network_break_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/empty_image"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/no_network_short_tips"
+        android:textColor="@color/gray" />
+
+    <Button
+        android:id="@+id/network_break_reload"
+        style="@style/Widget.My.Button.WireFrame.Gray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/empty_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:text="@string/no_network_reload"
+        android:textColor="@color/dimgray"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/network_break_refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/empty_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:text="@string/no_network_refresh"
+        android:textColor="@color/gray"
+        android:visibility="gone" />
+
+</merge>

@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="@dimen/dp_1"
+              android:background="@color/windowsBackground"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/dp_8"
+              android:paddingTop="@dimen/dp_8">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/chatting_left_link_msg_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textColor="@color/textGray"
+            android:textSize="14sp"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/chatting_left_link_checkbox_del"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:button="@drawable/background_image_select_left_check_box"
+            android:checked="false"
+            android:paddingTop="30dp"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/chatting_left_link_friend_head"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@id/chatting_left_link_checkbox_del"
+            android:background="@drawable/frame_background_head_icon"
+            android:focusable="false"/>
+
+        <!---link下行消息-->
+        <RelativeLayout
+            android:id="@+id/chatting_left_link_rl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/chatting_left_link_friend_head"
+            android:background="@drawable/chat_from_background"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/chatting_left_link_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="2dp"
+                android:padding="2dp"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/chatting_left_link_image"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/chatting_left_link_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="4dp"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/chatting_left_link_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/chatting_left_link_title"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="4dp"
+                    android:textSize="14sp"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="300dp"
+             android:layout_height="300dp"
+             tools:context="com.ylg.slave.fragment.FragmentCancelOk">
+
+    <include layout="@layout/dialog_cancel_ok"/>
+
+
+</FrameLayout>

@@ -1,0 +1,91 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- 自定义控件的圆角半径Android规范中是2dp -->
+    <dimen name="radius">2dp</dimen>
+
+    <!-- TextStyle -->
+    <dimen name="TxtSizeSuper">24sp</dimen>
+    <dimen name="TxtSizeLarge">20sp</dimen>
+    <dimen name="TxtSizeMiddle">16sp</dimen>
+    <dimen name="TxtSizeSmall">14sp</dimen>
+    <dimen name="TxtSizeLeast">12sp</dimen>
+
+    <!-- 大标题 -->
+    <dimen name="TxtSize24sp">24sp</dimen>
+    <!-- AppBar文字 -->
+    <dimen name="TxtSize20sp">20sp</dimen>
+    <dimen name="TxtSize18sp">18sp</dimen>
+    <!-- 小标题 -->
+    <dimen name="TxtSize16sp">16sp</dimen>
+    <dimen name="TxtSize15sp">15sp</dimen>
+    <!-- 正文/按钮文字 -->
+    <dimen name="TxtSize14sp">14sp</dimen>
+    <dimen name="TxtSize13sp">13sp</dimen>
+    <!-- 小字提示 -->
+    <dimen name="TxtSize12sp">12sp</dimen>
+    <dimen name="TxtSize9sp">9sp</dimen>
+
+    <!-- 屏幕左右对齐基线/卡片间距离/分割线的留白距离 -->
+    <dimen name="dp_8">8dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <!-- 大多元素的留白距离 -->
+    <dimen name="dp_16">16dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <!-- 顶部状态栏高度 -->
+    <dimen name="dp_24">24dp</dimen>
+    <dimen name="dp_26">26dp</dimen>
+    <!-- 小头像/悬浮按钮尺寸 -->
+    <dimen name="dp_40">40dp</dimen>
+    <!-- 小图标点击区域 -->
+    <dimen name="dp_48">48dp</dimen>
+    <dimen name="dp_50">50dp</dimen>
+    <!-- 侧边抽屉到屏幕右边的距离/悬浮按钮尺寸 -->
+    <dimen name="dp_56">56dp</dimen>
+    <!-- 用户头像尺寸 -->
+    <dimen name="dp_64">64dp</dimen>
+    <!-- 文字左侧对齐基线 -->
+    <dimen name="dp_72">72dp</dimen>
+    <dimen name="dp_75">75dp</dimen>
+
+    <!-- 自定义控件的最小值radio button/checkbox -->
+    <dimen name="dp_17">17dp</dimen>
+
+    <dimen name="dp_0">0dp</dimen>
+    <dimen name="dp_1">1dp</dimen>
+    <dimen name="dp_2">2dp</dimen>
+    <dimen name="dp_3">3dp</dimen>
+    <dimen name="dp_4">4dp</dimen>
+    <dimen name="dp_5">5dp</dimen>
+    <dimen name="dp_6">6dp</dimen>
+    <dimen name="dp_7">7dp</dimen>
+    <dimen name="dp_12">12dp</dimen>
+    <dimen name="dp_32">32dp</dimen>
+    <dimen name="dp_36">36dp</dimen>
+    <!-- 语音按钮高度 -->
+    <dimen name="dp_80">80dp</dimen>
+    <dimen name="dp_100">100dp</dimen>
+    <dimen name="dp_140">140dp</dimen>
+    <dimen name="dp_150">150dp</dimen>
+    <!-- 语音面板高度 -->
+    <dimen name="dp_180">180dp</dimen>
+    <!--  表情面板高度+页面表示符高度 -->
+    <dimen name="dp_210">210dp</dimen>
+    <!-- 表情面板高度 -->
+    <dimen name="dp_240">240dp</dimen>
+
+    <!--Toast 最大宽度和最小宽度-->
+    <dimen name="toast_min_width">150dp</dimen>
+    <dimen name="toast_max_width">318dp</dimen>
+    <!-- 权限弹出框宽度 -->
+    <dimen name="dialog_width">300dp</dimen>
+    <dimen name="dialog_content_padding">20dp</dimen>
+    <dimen name="dialog_textview_margin_top">42dp</dimen>
+    <dimen name="dialog_textview_margin_bottom">42dp</dimen>
+    <dimen name="dialog_textview_size">18sp</dimen>
+    <dimen name="dialog_button_content_height">42dp</dimen>
+    <dimen name="dialog_button_text_size">15sp</dimen>
+    <dimen name="dialog_title_margin_top">27dp</dimen>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/network_break_setting"
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:clickable="false"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:visibility="visible">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:src="@mipmap/icon_network" />
+
+    <TextView
+        android:id="@+id/tv_network_statu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:ellipsize="end"
+        android:text="网络异常"
+        android:textColor="@color/textWhite" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:scaleType="fitEnd"
+        android:src="@mipmap/arrow_right"
+        android:visibility="visible" />
+</LinearLayout>

@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">chatty</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- no network layout -->
+    <string name="no_network_tips">当前网络异常,请检查您的网络</string>
+    <string name="no_network_reload">重新加载</string>
+    <string name="no_network_refresh">点击重新加载</string>
+    <string name="no_network_short_tips">当前网络异常,请检查您的网络</string>
+
+    <string name="query_item_action_no_data">无数据</string>
+
+    <string name="no_data">对不起,当前没有数据</string>
+    <string name="request_data_error">加载数据出错,请重试</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="chatting_system_msg">系统消息</string>
+    <string name="chatting_error_download_image">error</string>
+
+    <!-- 图片选择 -->
+    <string name="gallery_confirm_button">确定</string>
+    <string name="gallery_confirm_button_with_count">确定(%1$s)</string>
+    <string name="gallery_select">选择</string>
+
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+
+    <string name="select_picture">请选择您要发送的图片</string>
+
+    <!-- 权限相关 -->
+    <string name="permission_read_phone_state">电话</string>
+    <string name="permission_storage">存储</string>
+    <string name="permission_location">位置</string>
+    <string name="permission_read_contacts">读取联系人</string>
+    <string name="permission_camera">相机</string>
+    <string name="permission_audio">麦克风</string>
+    <string name="permission_dialog_title">为保证您正常、安全地使用京东，需获取您的%1$s使用权限，请允许。</string>
+    <string name="permission_dialog_title1">为保证您正常的使用此功能，需获取您的%1$s使用权限，请允许。</string>
+    <string name="permission_dialog_title2">为保证此功能正常使用，请前往应用权限设置打开%1$s权限</string>
+    <string name="permission_dialog_title3">未取得您的%1$s使用权限，此功能无法使用。请前往应用权限设置，打开权限。</string>
+    <string name="permission_dialog_cacel">取消</string>
+    <string name="permission_dialog_ok">去允许</string>
+    <string name="permission_dialog_ok1">去打开</string>
+
+    <string name="html_url">http:([^>\\\"])+</string>
+
+    <!-- 拍照预览 -->
+    <string name="camera_preview_title">发送图片</string>
+    <string name="not_found_image_path">"未找到图片路径"</string>
+
+    <!-- 聊天界面图片预览 -->
+    <string name="image_preview_picture">查看图片</string>
+    <string name="image_save_success">保存成功!</string>
+    <string name="image_save_failed">图片保存失败，请重新尝试!</string>
+
+    <!-- 相册界面 -->
+    <string name="gallery_title">选择图片</string>
+    <string name="picture_preview">预览</string>
+</resources>

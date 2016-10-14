@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="@dimen/dp_1"
+              android:background="@color/windowsBackground"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/dp_8"
+              android:paddingTop="@dimen/dp_8">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/chatting_left_file_msg_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textColor="@color/textGray"
+            android:textSize="14sp"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <CheckBox
+            android:id="@+id/chatting_left_file_checkbox_del"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:button="@drawable/background_image_select_left_check_box"
+            android:checked="false"
+            android:paddingTop="30dp"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/chatting_left_file_friend_head"
+            android:layout_width="@dimen/dp_48"
+            android:layout_height="@dimen/dp_48"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@id/chatting_left_file_checkbox_del"
+            android:background="@drawable/frame_background_head_icon"
+            android:focusable="false"/>
+
+        <LinearLayout
+            android:id="@+id/chatting_left_file_lin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/chatting_left_text_friend_head"
+            android:background="@drawable/chat_from_background"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/chatting_left_file_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:gravity="left|center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="13dp"
+                android:paddingRight="8dp"
+                android:paddingTop="10dp"
+                android:visibility="visible"
+            />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="13dp"
+                android:paddingRight="8dp"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/chatting_left_file_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textGray"
+                    android:textSize="14sp"
+                    android:visibility="visible"/>
+
+
+                <TextView
+                    android:id="@+id/chatting_left_file_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/textGray"
+                    android:textSize="14sp"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

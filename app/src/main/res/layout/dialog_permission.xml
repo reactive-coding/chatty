@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dialog_width"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"  >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scrollbars="none"
+        android:paddingLeft="@dimen/dialog_content_padding"
+        android:paddingRight="@dimen/dialog_content_padding">
+        <TextView
+            android:id="@+id/dialog_permission_message"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dialog_textview_margin_bottom"
+            android:layout_marginTop="@dimen/dialog_textview_margin_top"
+            android:gravity="left"
+            android:textColor="#232326"
+            android:textSize="@dimen/dialog_textview_size"
+            android:includeFontPadding="false"/>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dialog_button_content_height"
+        android:gravity="center|bottom"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/dialog_permission_pos_button"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_dialog_pos_left_radius"
+            android:textColor="#232326"
+            android:textSize="@dimen/dialog_button_text_size" />
+        <Button
+            android:id="@+id/dialog_permission_neg_button"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_dialog_neg_right_radius"
+            android:textColor="@color/dialog_permission_button_neg_font_color"
+            android:textSize="@dimen/dialog_button_text_size" />
+    </LinearLayout>
+
+</LinearLayout>

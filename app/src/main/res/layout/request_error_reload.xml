@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/reload_root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:visibility="gone">
+
+    <RelativeLayout
+        android:id="@+id/reload_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/reload_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="100dp"
+            android:src="@mipmap/list_no_data"
+            android:textColor="@color/gray"/>
+
+        <TextView
+            android:id="@+id/reload_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/reload_image"
+            android:layout_centerHorizontal="true"
+            android:padding="12dp"
+            android:text="@string/request_data_error"
+            android:textColor="@color/gray"/>
+
+        <Button
+            android:id="@+id/reload_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/reload_text"
+            android:layout_centerHorizontal="true"
+            android:background="@color/buttonBackgroundA"
+            android:clickable="true"
+            android:text="@string/no_network_reload"
+            android:textColor="@color/white"/>
+
+    </RelativeLayout>
+</ScrollView>

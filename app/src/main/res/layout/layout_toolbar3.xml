@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:id="@+id/activity_toolbar_3_fl"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="1dp">
+        <TextView
+            android:id="@+id/toolbar_navigation_up"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/toolbar_btn_back_selector"
+            android:drawableStart="@drawable/toolbar_btn_back_selector"
+            android:layout_gravity = "start"
+            android:gravity="center"
+            android:minWidth="50dp"
+            android:text="返回"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/TxtSizeLarge"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/toolbar_title_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity = "center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/TxtSizeLarge"
+            tools:text="标题" />
+        <TextView
+            android:id="@+id/toolbar_title_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity = "end"
+            android:gravity="center"
+            android:minWidth="50dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/TxtSize14sp"
+            android:visibility="visible" />
+    </android.support.v7.widget.Toolbar>
+</FrameLayout>

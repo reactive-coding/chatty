@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dp_1"
+    android:background="@color/windowsBackground"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/dp_8"
+    android:paddingBottom="@dimen/dp_8">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/chatting_left_text_msg_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textColor="@color/textGray"
+            android:textSize="14sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <CheckBox
+            android:id="@+id/chatting_left_text_checkbox_del"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:button="@drawable/background_image_select_left_check_box"
+            android:checked="false"
+            android:paddingTop="30dp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/chatting_left_text_friend_head"
+            android:layout_width="@dimen/dp_48"
+            android:layout_height="@dimen/dp_48"
+            android:background="@drawable/frame_background_head_icon"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="2dp"
+            android:layout_toRightOf="@id/chatting_left_text_checkbox_del"
+            android:focusable="false" />
+
+
+        <LinearLayout
+            android:id="@+id/chatting_left_text_lin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/chatting_left_text_friend_head"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/chatting_left_text_common_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chat_from_background"
+                android:gravity="left|center"
+                android:lineSpacingExtra="2dp"
+                android:maxWidth="250dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="13dp"
+                android:paddingRight="8dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/textBlack"
+                android:textSize="15sp"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/chatting_left_text_smiley_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chat_from_background"
+                android:gravity="left|center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="13dp"
+                android:paddingRight="8dp"
+                android:paddingTop="10dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

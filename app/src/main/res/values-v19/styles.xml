@@ -1,0 +1,16 @@
+<resources>
+    <!-- Make the status bar translucent -->
+    <!-- below code make android 4.2 toolbar text color black even if I set the color is white !! -->
+    <!--<style name="AppTheme" parent="AppTheme.Base">-->
+        <!--&lt;!&ndash; below code make android 4.2 toolbar move up with status bar !! &ndash;&gt;-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+
+        <!--&lt;!&ndash; This is the color of the Toolbar &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--&lt;!&ndash; This is the color of the Status bar &ndash;&gt;-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+    <!--</style>-->
+
+
+
+</resources>

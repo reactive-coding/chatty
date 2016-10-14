@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.reactiveapps.chatty.view.widget.KeyboardDetectorRelativeLayout
+    android:id="@+id/chat_root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/input_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/input_container">
+
+            <include layout="@layout/request_error_reload"/>
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/chatting_rv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:cacheColorHint="#00000000"
+                android:clipToPadding="false"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:scrollbars="vertical">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <include layout="@layout/request_empty"/>
+
+        </FrameLayout>
+
+
+    </RelativeLayout>
+
+</com.reactiveapps.chatty.view.widget.KeyboardDetectorRelativeLayout>

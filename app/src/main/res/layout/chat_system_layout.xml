@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="@dimen/dp_1"
+              android:background="@color/transparent"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/dp_8"
+              android:paddingTop="@dimen/dp_8">
+
+    <!--普通系统消息-->
+    <LinearLayout
+        android:id="@+id/chatting_system_msg_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@mipmap/chat_left_no_waiter"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/chatting_system_msg"
+                android:textColor="#999"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/chatting_system_msg_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text=""
+                android:textColor="#999"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/chatting_system_msg_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:text=""
+            android:textColor="#333"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+</LinearLayout>

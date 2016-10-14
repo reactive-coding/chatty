@@ -1,0 +1,15 @@
+<resources>
+    <!-- Make the status bar translucent -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <item name="android:windowTranslucentStatus">true</item>
+        <!-- This is the color of the Toolbar -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- This is the color of the Status bar -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!-- The Color of the Status bar -->
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+    </style>
+
+
+
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@android:color/transparent"
+>
+    <LinearLayout
+        android:id="@+id/acty_fragment_main_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/tab_background"
+        android:orientation="horizontal">
+
+
+        <CheckedTextView
+            android:id="@+id/activity_main_tab_a_ctv"
+            style="@style/Widget.My.RadioButton.Tab.MainTab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/tab_chats_selector"
+            android:text="Chats"/>
+
+
+        <com.reactiveapps.chatty.view.widget.CheckableFrameLayout
+            android:id="@+id/activity_main_tab_b_ctv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true">
+
+            <CheckedTextView
+                style="@style/Widget.My.RadioButton.Tab.MainTab"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="false"
+                android:drawableTop="@drawable/tab_contacts_selector"
+                android:text="Contacts"/>
+
+            <TextView
+                android:id="@+id/count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="2dp"
+                android:background="@mipmap/count_background"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:visibility="gone"/>
+        </com.reactiveapps.chatty.view.widget.CheckableFrameLayout>
+
+        <CheckedTextView
+            android:id="@+id/activity_main_tab_c_ctv"
+            style="@style/Widget.My.RadioButton.Tab.MainTab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/tab_discover_selector"
+            android:text="Discover"/>
+
+        <CheckedTextView
+            android:id="@+id/activity_main_tab_d_ctv"
+            style="@style/Widget.My.RadioButton.Tab.MainTab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/tab_my_selector"
+            android:text="Me"/>
+
+    </LinearLayout>
+</RelativeLayout>
